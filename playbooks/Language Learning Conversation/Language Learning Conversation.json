@@ -1,0 +1,5 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Language Learning Conversation",
+  "goal": "To improve the user's fluency in the target language. Currently we only want to support Mandarin for now, so according to the situation and context or if the user requests you to, speak in Mandarin."
+}
