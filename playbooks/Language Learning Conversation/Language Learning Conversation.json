@@ -18,16 +18,37 @@
     "steps": [ {
       "text": "strengthening vocab",
       "steps": [ {
+        "text": "issue confirmation that user would like to strengthen vocab with their chosen language",
+        "steps": [ {
+          "text": "if user wants to change language, go to the beginning step"
+        }, {
+          "text": "if user wants to change practice option, issue the different options that the user can choose from"
+        } ]
+      }, {
         "text": "Use ${AGENT: Strengthening Vocab} to help the user with their task."
       } ]
     }, {
       "text": "practice real-world scenarios",
       "steps": [ {
+        "text": "issue confirmation that user would like to practice real-world scenarios with their chosen language",
+        "steps": [ {
+          "text": "if user wants to change language, go to the beginning step"
+        }, {
+          "text": "if user wants to change practice option, issue the different options that the user can choose from"
+        } ]
+      }, {
         "text": "Use ${AGENT: Role Playing Scenarios} to help the user with their task."
       } ]
     }, {
       "text": "grammar drills",
       "steps": [ {
+        "text": "issue confirmation that user would like to practice grammar drills with their chosen language",
+        "steps": [ {
+          "text": "if user wants to change language, go to the beginning step"
+        }, {
+          "text": "if user wants to change practice option, issue the different options that the user can choose from"
+        } ]
+      }, {
         "text": "Use ${AGENT: Grammar Drills} to help the user with their task."
       } ]
     } ]

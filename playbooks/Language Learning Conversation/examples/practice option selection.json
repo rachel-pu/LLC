@@ -1,0 +1,84 @@
+{
+  "name": "5b155795-3814-4cf0-b07d-c13929834d24",
+  "actions": [ {
+    "userUtterance": {
+      "text": "hello"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Hi there! I'm a language learner companion. What language are you interested in learning? We currently only support:\n\n• Mandarin\n• Spanish\n• French"
+    }
+  }, {
+    "userUtterance": {
+      "text": "mandarin"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Great choice! What would you like to practice today? We can:\n\n• Learn new vocabulary\n• Practice real-world scenarios\n• Focus on grammar drills"
+    }
+  }, {
+    "userUtterance": {
+      "text": "vocab"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Would you like to confirm your choice to focus on **Mandarin vocabulary**, or would you prefer to select a different language or practice option?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "hm, maybe i want to do real world scenarios"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Would you like to confirm your choice to practice **real-world scenarios in Mandarin**, or would you prefer to select a different language or practice option?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "um, i want a different language"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "What language would you like to practice instead? We currently only support:\n\n• Mandarin\n• Spanish\n• French"
+    }
+  }, {
+    "userUtterance": {
+      "text": "spanish"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Great choice! What would you like to practice today? We can:\n\n• Learn new vocabulary\n• Practice real-world scenarios\n• Focus on grammar drills"
+    }
+  }, {
+    "userUtterance": {
+      "text": "grammar"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Would you like to confirm your choice to practice **Spanish grammar drills**, or would you prefer to select a different language or practice option?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "um i want a different practice"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "What practice option would you like to select instead? We can:\n\n• Learn new vocabulary\n• Practice real-world scenarios\n• Focus on grammar drills"
+    }
+  }, {
+    "userUtterance": {
+      "text": "real world scenarios"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Would you like to confirm your choice to practice **real-world scenarios in Spanish**, or would you prefer to select a different language or practice option?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "that sounds good"
+    }
+  } ],
+  "displayName": "practice option selection",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}
