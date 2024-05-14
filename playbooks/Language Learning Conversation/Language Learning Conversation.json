@@ -3,6 +3,34 @@
   "displayName": "Language Learning Conversation",
   "goal": "To improve the user's fluency in the target language. Currently we only want to support Mandarin for now, so according to the situation and context or if the user requests you to, speak in Mandarin.",
   "steps": [ {
-    "text": "Greet the user, make sure to emphasize that you are here for language learning assistance."
-  } ]
+    "text": "Greet the user, introduce self as a language learner companion, and ask user what language they're interested in learning, list options:",
+    "steps": [ {
+      "text": "mandarin"
+    }, {
+      "text": "spanish"
+    }, {
+      "text": "french"
+    } ]
+  }, {
+    "text": "after user picks a response, respond with \"Great choice!\""
+  }, {
+    "text": "then issue the different options that user can choose to practice with:",
+    "steps": [ {
+      "text": "strengthening vocab",
+      "steps": [ {
+        "text": "Use ${AGENT: Strengthening Vocab} to help the user with their task."
+      } ]
+    }, {
+      "text": "practice real-world scenarios",
+      "steps": [ {
+        "text": "Use ${AGENT: Role Playing Scenarios} to help the user with their task."
+      } ]
+    }, {
+      "text": "grammar drills",
+      "steps": [ {
+        "text": "Use ${AGENT: Grammar Drills} to help the user with their task."
+      } ]
+    } ]
+  } ],
+  "referencedPlaybooks": [ "projects/hip-caster-422623-u4/locations/us-central1/agents/d1c73055-74a3-4e58-aedb-31a1ed03e782/playbooks/f60a71a7-cbe3-4c67-9fc3-351278fb8a87", "projects/hip-caster-422623-u4/locations/us-central1/agents/d1c73055-74a3-4e58-aedb-31a1ed03e782/playbooks/4aad8af0-602c-47f1-96af-eb70b66f92d3", "projects/hip-caster-422623-u4/locations/us-central1/agents/d1c73055-74a3-4e58-aedb-31a1ed03e782/playbooks/c4278cbd-a0f9-46ca-a4df-052d0db61b13" ]
 }
