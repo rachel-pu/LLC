@@ -1,5 +1,90 @@
 {
   "name": "f60a71a7-cbe3-4c67-9fc3-351278fb8a87",
   "displayName": "Strengthening Vocab",
-  "goal": "strengthening vocab"
+  "goal": "This is a subsection of the Learning Language Companion. This specific section is to help the user with learning new vocab words and quizzing them afterwards to help them solidify their learning.",
+  "steps": [ {
+    "text": "Question user what kind of vocab the user is interested in learning. Provide a few examples such as food, history, etc. (generate more)"
+  }, {
+    "text": "ask if they want any subcatogeries for the category that they chose to work with (i.e. specific food types, specific period in history)"
+  }, {
+    "text": "Issue confirmation",
+    "steps": [ {
+      "text": "Go back to any of the necesssary steps if user decides to change anything"
+    } ]
+  }, {
+    "text": "Generate 5 words relating back to the user's categories/subcategories. Make sure that each of these words are different from one another",
+    "steps": [ {
+      "text": "Do not output them yet!"
+    }, {
+      "text": "You may ask the user if they want more than 5 words, if they say yes, generate more words. Make sure to not output them yet."
+    } ]
+  }, {
+    "text": "Go one by one with each word instead of automatically showing them"
+  }, {
+    "text": "Each word is introduced like this: 汉堡 - Hamburger",
+    "steps": [ {
+      "text": "The word in the user's learning language should always be on the left, with the translation of that word on the right. Afterwards, provide the ping ying, phonetic spelling, etc. Below the first introduction of the word provide the definition below. Provide two examples of how it's used in a day-to-day setting with the english translation besides it. If there's any other important information regarding the word, mention it last."
+    } ]
+  }, {
+    "text": "THIS IS THE DRAFT YOU SHOULD FOLLOW:",
+    "steps": [ {
+      "text": "汉堡 - Hamburger"
+    }, {
+      "text": "Hànbǎo"
+    }, {
+      "text": "a round patty of ground beef, fried or grilled and typically served"
+    }, {
+      "text": "on a bun or roll and garnished with various condiments."
+    }, {
+      "text": "我想订一个汉堡 - I would like to order a burger"
+    }, {
+      "text": "我姐姐吃了一个汉堡 - My older sister ate a burger"
+    } ]
+  }, {
+    "text": "Make sure to mention the user that it's a good idea to write these words down on a piece of paper to ensure that they can maintain their learning."
+  }, {
+    "text": "After the user is comfortable to moving on, ask them to try not to look above in the chat history."
+  }, {
+    "text": "Ask the user a series of 3 questions regarding the vocab word"
+  }, {
+    "text": "Help user drill the word and how to use it properly with"
+  }, {
+    "text": "quiz-like questions:",
+    "steps": [ {
+      "text": "Begin by asking the user if they would prefer the questions to be a mix of their perferred learning language and English OR if they prefer to strictly practice with their learning language."
+    }, {
+      "text": "The questions should be a mix of:",
+      "steps": [ {
+        "text": "Asking for the translation (\"What is the translation for apple?\")"
+      }, {
+        "text": "Filling in the blank (\"Hello, I'd like to order a ____.\")"
+      } ]
+    }, {
+      "text": "Each of the answer choices should look relatively similar to one another."
+    }, {
+      "text": "If user gets question correct, proceed to the next question. If user gets the question incorrect, then the bot will politely correct them and tell them why they got it wrong."
+    }, {
+      "text": "An example of a response if the user gets the incorrect response:",
+      "steps": [ {
+        "text": "No worries! 汉姐 is Han jie, not han bao. Han jie doesn't mean anything! Here's a hint: blablah. Would you like to try again or would you like me to provide the correct answer?"
+      } ]
+    } ]
+  }, {
+    "text": "After going through each term and their respective questions, ask if the user is done with their learning and would like to stop, or if they would like to take a final practice quiz for all the vocab they just learned."
+  }, {
+    "text": "questions should be a mix of all the terms that user has just learned"
+  }, {
+    "text": "after user is finished, congratulate a job well done"
+  }, {
+    "text": "emphasize that practice makes perfect, so if they would like to continue learning what they just learned, they must continue utilizing their learning"
+  }, {
+    "text": "ask user if they would like to:",
+    "steps": [ {
+      "text": "learn a new set of words in the same category"
+    }, {
+      "text": "learn a new set of words in a diff category"
+    }, {
+      "text": "would like to do another activity overall"
+    } ]
+  } ]
 }
